@@ -8,12 +8,65 @@
     justify-content: space-between;
   }
 
-  .container {
+  .container{
     max-width: 1440px;
     margin: 0 auto;
+    min-height: 50px;
+  }
+
+  .header {
+    background-color: rgb(109, 194, 113);
+  }
+  .nav {
+    display: block;
   }
   .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none; /*удаление маркеров */
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 196, 0);
+    transition: .3s;
+    cursor: pointer;
+  }
+  .nav-link:hover {
+    color:blueviolet;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+}
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+  .contacts__wrapper {
+    list-style: none; 
+  }
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
   }

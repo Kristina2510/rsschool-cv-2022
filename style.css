@@ -148,3 +148,38 @@
   background-color: rgb(142, 197, 144);
 }
 
+.courses-link:hover {
+  color: rgb(142, 197, 144);
+}
+
+.section-education {
+  border-bottom: 0;
+}
+
+
+
+.footer {
+  background-color: rgb(142, 197, 144);
+  padding: 20px;  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.github {
+  color: #fff;
+  text-decoration: none;
+  line-height: 45px;
+}
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("./img/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

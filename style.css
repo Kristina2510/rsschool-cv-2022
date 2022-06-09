@@ -143,3 +143,8 @@
   height: 16px;
 }
 
+.divider_green {
+  display: block;
+  background-color: rgb(142, 197, 144);
+}
+
